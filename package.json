@@ -6,9 +6,9 @@
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
-        "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+        "storybook:build": "vue-cli-service storybook:build -c config/storybook -o storybook-static",
         "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
-        "chromatic": "npx chromatic --project-token=c19f87ecbe0d --build-script-name=storybook:build --output-dir=./storybook-static"
+        "chromatic": "npx chromatic --project-token=c19f87ecbe0d --build-script-name=storybook:build"
     },
     "dependencies": {
         "@bristol-su/portal-ui-kit": "github:bristol-su/portal-ui-kit#PR-344/epic",

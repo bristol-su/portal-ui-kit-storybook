@@ -28,4 +28,3 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitOnceUploaded: true
           buildScriptName: 'storybook:build'
-          storybookBuildDir: './storybook-static'
