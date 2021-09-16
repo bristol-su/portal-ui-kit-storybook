@@ -4,6 +4,7 @@ module.exports = {
         '@storybook/addon-essentials',
         '@storybook/addon-links',
         '@storybook/addon-controls',
+        '@storybook/addon-a11y',
         {
             name: '@storybook/addon-postcss'
         }
