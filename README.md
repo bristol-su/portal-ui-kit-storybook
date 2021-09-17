@@ -7,7 +7,13 @@ npm install
 
 ### View storybook
 ```
-npm run storybook:serve
+npm run serve
+```
+
+### Push updates to Chromatic
+
+```
+npm run chromatic
 ```
 
 ### Compiles and minifies for production
