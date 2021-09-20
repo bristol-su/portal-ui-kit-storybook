@@ -1,8 +1,8 @@
-import VButton from "@bristol-su/portal-ui-kit/src/components/atomic/VButton";
+import VButton from "./../../node_modules/@bristol-su/portal-ui-kit/src/components/atomic/VButton";
 import { action } from "@storybook/addon-actions";
 
 export default {
-  title: "UI Kit/Button",
+  title: "Components/Button",
   component: VButton,
   argTypes: {
     variant: {

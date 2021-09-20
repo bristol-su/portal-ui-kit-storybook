@@ -1,8 +1,8 @@
-import VTable from "@bristol-su/portal-ui-kit/src/components/VTable";
+import VTable from "./../../node_modules/@bristol-su/portal-ui-kit/src/components/VTable";
 import { action } from "@storybook/addon-actions";
 
 export default {
-  title: "UI Kit/Table",
+  title: "Components/Table",
   component: VTable,
   argTypes: {
     items: {
@@ -119,17 +119,23 @@ Empty.args = {
 
 export const Deleting = Template.bind({});
 Deleting.args = {
-    columns: [
-        { key: "id", label: "Row ID"},
-        { key: "name", label: "Name" },
-        { key: "age", label: "Age" },
-        { key: "colour", label: "Favorite Colour" },
-    ],
-    items: [
-        { id: 2, name: "Toby T", age: 24, colour: "Orange", "_table": {isDeleting: true}},
-        { id: 10, name: "Ralph", age: 5, colour: "Red" },
-        { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
-        { id: 21, name: "Rocket", age: 1, colour: "Green" },
-    ],
-    deletable: true
+  columns: [
+    { key: "id", label: "Row ID" },
+    { key: "name", label: "Name" },
+    { key: "age", label: "Age" },
+    { key: "colour", label: "Favorite Colour" },
+  ],
+  items: [
+    {
+      id: 2,
+      name: "Toby T",
+      age: 24,
+      colour: "Orange",
+      _table: { isDeleting: true },
+    },
+    { id: 10, name: "Ralph", age: 5, colour: "Red" },
+    { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
+    { id: 21, name: "Rocket", age: 1, colour: "Green" },
+  ],
+  deletable: true,
 };
