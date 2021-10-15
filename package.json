@@ -9,7 +9,7 @@
         "chromatic": "npx chromatic --project-token=c19f87ecbe0d --build-script-name=build"
     },
     "dependencies": {
-        "@bristol-su/portal-ui-kit": "github:bristol-su/portal-ui-kit#PR-344/epic",
+        "@bristol-su/portal-ui-kit": "github:bristol-su/portal-ui-kit#develop",
         "core-js": "^3.6.5",
         "vue": "^2.6.11"
     },
