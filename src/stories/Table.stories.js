@@ -86,6 +86,18 @@ Basic.args = {
     { id: 10, name: "Ralph", age: 5, colour: "Red" },
     { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
     { id: 21, name: "Rocket", age: 1, colour: "Green" },
+    { id: 2, name: "Toby T", age: 24, colour: "Orange" },
+    { id: 10, name: "Ralph", age: 5, colour: "Red" },
+    { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
+    { id: 21, name: "Rocket", age: 1, colour: "Green" },
+    { id: 2, name: "Toby T", age: 24, colour: "Orange" },
+    { id: 10, name: "Ralph", age: 5, colour: "Red" },
+    { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
+    { id: 21, name: "Rocket", age: 1, colour: "Green" },
+    { id: 2, name: "Toby T", age: 24, colour: "Orange" },
+    { id: 10, name: "Ralph", age: 5, colour: "Red" },
+    { id: 20, name: "Quillo", age: 1, colour: "Yellow" },
+    { id: 21, name: "Rocket", age: 1, colour: "Green" },
   ],
 };
 
